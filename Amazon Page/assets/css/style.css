@@ -1,0 +1,176 @@
+/* Setting generali pagina */
+html {
+  width: 100%;
+}
+
+body {
+  height: 90%;
+  margin: 0;
+  padding: 0;
+  background-color: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+main {
+  margin: 0 3em;
+}
+
+h2,
+h5 {
+  color: white;
+}
+
+.Testatapartealta {
+  background-color: #222f3f;
+}
+.Testatapartebassa {
+  background-color: #364759;
+}
+
+/* HEADER */
+#ImgTestata {
+  display: block;
+}
+#ImgTestata img {
+  width: 9em;
+  padding-left: 2em;
+  padding-bottom: 0.7em;
+  padding-top: 0.7em;
+}
+#menu {
+  display: inline-block;
+  color: white;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 2em;
+  font-size: 1.1em;
+}
+.menu {
+  display: inline-block;
+  color: white;
+  margin: 0.5em 0.5em;
+  font-size: 1.1em;
+}
+/* / HEADER */
+
+/* Contenitore arancione */
+#Sezione1 {
+  background-color: #f56600;
+  margin: 2em 0;
+}
+#Sezione1 p {
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 0.5em 0.4em;
+  font-weight: 400;
+}
+
+#Sezione1 p:hover {
+  color: rgb(250, 250, 162);
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+/* / Contenitore arancione */
+
+/* Contenitore con titolo e immagine */
+#Sezione2 {
+  background-image: url("/Amazon Page/assets/images/bg-image.png");
+  background-size: contain;
+}
+#Sezione2 h2 {
+  text-align: center;
+  padding-top: 1em;
+  font-size: 4em;
+}
+#Sezione2 h5 {
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.3em;
+  font-size: 1.5em;
+}
+
+/* / Contenitore con titolo e immagine */
+
+/* Sezione centrale */
+#Sezione3 {
+  background-color: white;
+  margin: 1.8em 0;
+}
+#PrimoIdSezione3 {
+  padding-left: 1em;
+}
+
+#PrimoIdSezione3 p {
+  margin: 1em 0.5em;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+#PrimoIdSezione3 a {
+  padding: 1em 0.3em;
+  display: inline-block;
+  color: #085568;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.quadrati {
+  display: inline-block;
+  width: 403px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.quadrati img {
+  width: 100%;
+  height: 415px;
+  border-radius: 10px;
+  box-shadow: 11px 5px 13px -1px #808080;
+}
+
+/* / Sezione centrale */
+
+/* Immagine pre-finale e finale */
+.rettangolo img {
+  width: 100%;
+}
+
+.DivText {
+  display: block;
+  text-align: center;
+}
+.DivText p {
+  margin-top: 0.3em;
+  margin-bottom: 3em;
+  padding-right: 0.8em;
+  display: inline-block;
+  font-size: 1.5em;
+}
+.DivText a {
+  display: inline-block;
+  color: #085568;
+  text-decoration: none;
+}
+/* / Immagine pre-finale e finale*/
+
+/* Footer */
+.colorechiaro a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.3em 0.4em;
+}
+
+.colorescuro img {
+  display: block;
+  width: 9em;
+  /* margin: 0 auto; */
+  padding: 4em 100vh;
+}
+/* / Footer */
